@@ -44,8 +44,13 @@
     align-items: flex-end;
     margin-bottom: 2.2vw;
   }
-  .header_logo, .header_logo_2 {
-    flex: 0 0 20vw;
+  .header_logo {
+    flex: 0 0 15vw;
+    z-index: 3;
+    position: relative;
+  }
+  .header_logo_2 {
+    flex: 0 0 30vw;
     z-index: 3;
     position: relative;
   }
