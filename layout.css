@@ -200,8 +200,11 @@
     margin-bottom: -1.3vw;
   }
   p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left;
   }
   h1 {
-    font-family: 'Oswald', sans-serif; font-size: 4.167vw; color: black; vertical-align: top; text-align: left;
+    font-family: 'Oswald', sans-serif; font-size: 4.167vw; color: black; vertical-align: top; text-align: left; font-weight: 500;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif; font-size: 2.083vw; font-weight: medium; vertical-align: top; text-align: left;
   }
