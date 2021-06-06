@@ -213,15 +213,21 @@
     display: block;
     width: 63%;
     height: 63%;
-    top: -29.67vw;
+    top: -29.9vw;
     right: 1vw;
   }
   .text_dish {
     position: relative;
     display: block;
-    top:-58.631vw;
+    top:-59vw;
     width: 32%;
     left:59.643vw;
+  }
+  .text_dish h1 {
+    margin-bottom: 0.6vw;
+  }
+  .text_dish h2 {
+    margin-bottom: 3vw;
   }
   .header_burger.active span {
     transform: scale(0);
@@ -241,14 +247,26 @@
     margin-bottom: -1.3vw;
   }
   button {
-  width: 100px;
-  height: 60px;
-  background: #fa4;
-  border-radius: 5px;
-  font-family: "Arial";
-  font-size: 24px;
-  border: 5px solid #afd;
-}
+  width: 17.500vw;
+  height: 3.333vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgba(162, 42, 47, 1);
+  background-color: white;
+  font-size: 1.38vw;
+  border: 0.2vw solid rgba(162, 42, 47, 1);
+  padding: 0.1vw 0.1vw 0.1vw 0.1vw;
+  max-width: 100%;
+  }
+  .dish_bottom {
+    margin-top:-53.8vw;
+  }
+  button p {
+
+  }
+  .baton {
+    margin-top:5vw;
+  }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left;
   }
