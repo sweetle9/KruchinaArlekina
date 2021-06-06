@@ -205,8 +205,8 @@
     display: block;
     width: 90%;
     height: 90%;
-    right:20.4vw;
-    margin: 4vw 0 0 0;
+    right:18.4vw;
+    margin: 1vw 0 0 0;
   }
   .dish_fish {
     position: relative;
@@ -214,7 +214,14 @@
     width: 63%;
     height: 63%;
     top: -29.67vw;
-    right: 3vw;
+    right: 1vw;
+  }
+  .text_dish {
+    position: relative;
+    display: block;
+    top:-58.631vw;
+    width: 32%;
+    left:59.643vw;
   }
   .header_burger.active span {
     transform: scale(0);
