@@ -178,9 +178,43 @@
     color: rgba(196, 196, 196, 1)
   }
   .content {
-    padding: 20vw;
+    max-width: 88.393vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    position: relative;
+    display: block;
+    height: 100%;
   }
-  .content_text {
+  .container_content {
+    display: block;
+    position: relative;
+    height: 100%;
+  }
+  .first_slide {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:10vw;
+    height: 49.048vw;
+    left:0;
+    padding-top: 2vw;
+  }
+  .dish_circle {
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 90%;
+    right:20.4vw;
+    margin: 4vw 0 0 0;
+  }
+  .dish_fish {
+    position: relative;
+    display: block;
+    width: 63%;
+    height: 63%;
+    top: -29.67vw;
+    right: 3vw;
   }
   .header_burger.active span {
     transform: scale(0);
@@ -199,6 +233,15 @@
   .lower_menu li {
     margin-bottom: -1.3vw;
   }
+  button {
+  width: 100px;
+  height: 60px;
+  background: #fa4;
+  border-radius: 5px;
+  font-family: "Arial";
+  font-size: 24px;
+  border: 5px solid #afd;
+}
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left;
   }
