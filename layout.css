@@ -188,7 +188,7 @@
   .container_content {
     display: block;
     position: relative;
-    height: 100%;
+    height: 606.964vw;
   }
   .first_slide {
     display: inline-block;
@@ -200,6 +200,15 @@
     left:0;
     padding-top: 2vw;
   }
+  .second_slide {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:0;
+    /* height: 49.048vw; */
+    left:0;
+  }
   .dish_circle {
     position: relative;
     display: block;
@@ -207,6 +216,14 @@
     height: 90%;
     right:18.4vw;
     margin: 1vw 0 0 0;
+  }
+  .data_1 {
+    position: relative;
+    display: block;
+    top: 10vw;
+    width: 50%;
+    height: 50%;
+    left:24vw;
   }
   .dish_fish {
     position: relative;
@@ -216,12 +233,44 @@
     top: -29.9vw;
     right: 1vw;
   }
+  .first_comp {
+    display: block;
+    position: relative;
+  }
+  .red_rect_1 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:25vw;
+  }
+  .blue_rect_1 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:-14vw;
+  }
+  .photo_circus {
+    display: block;
+    position: relative;
+    width: 45%;
+    height: 45%;
+    top:-48.5vw;
+    left: 23vw;
+  }
+  .first_text {
+    
+  }
   .text_dish {
     position: relative;
     display: block;
     top:-59vw;
     width: 32%;
     left:59.643vw;
+    height: 15.56vw;
   }
   .text_dish h1 {
     margin-bottom: 0.6vw;
@@ -257,15 +306,20 @@
   border: 0.2vw solid rgba(162, 42, 47, 1);
   padding: 0.1vw 0.1vw 0.1vw 0.1vw;
   max-width: 100%;
+  white-space: nowrap;
   }
   .dish_bottom {
-    margin-top:-53.8vw;
+    position: relative;
+    display: block;
+    top:-45.8vw;
   }
   button p {
 
   }
   .baton {
-    margin-top:5vw;
+    display: block;
+    position: relative;
+    top:5vw;
   }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left;
