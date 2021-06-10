@@ -259,10 +259,63 @@
     width: 45%;
     height: 45%;
     top:-48.5vw;
-    left: 23vw;
+    left: 24vw;
   }
   .first_text {
-    
+    width: 27.976vw;
+    height: 6.488vw;
+    bottom: 12vw;
+    margin-top: -42vw;
+    margin-left: 12vw;
+  }
+  .time_lines {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top:0;
+    left:0;
+    z-index: -1;
+  }
+  .time_circle {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 42vw;
+    top: -56vw;
+  }
+  .time_line {
+    display: block;
+    position: relative;
+    width: 0.476vw;
+    height: 52.619vw;
+    left: 43.5vw;
+    top: -56vw;
+    background-color:black;
+    margin-bottom: 22.4vw;
+  }
+  .time_circle_2 {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 42vw;
+    top: -56vw;
+  }
+  .time_line_2 {
+    display: block;
+    position: relative;
+    width: 0.476vw;
+    height: 52.619vw;
+    left: 43.5vw;
+    top: -56vw;
+    background-color:black;
+    margin-bottom: 2.4vw;
   }
   .text_dish {
     position: relative;
@@ -311,7 +364,11 @@
   .dish_bottom {
     position: relative;
     display: block;
-    top:-45.8vw;
+    top:-20.8vw;
+    margin: 0 0 0 0;
+    width: 111%;
+    height: 100%;
+    left:18.5vw;
   }
   button p {
 
