@@ -325,8 +325,12 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 10%;
-    height: 10%;
+    height: 65vw;
+    width: 12vw;
+  }
+  .wavy_flex img {
+    width: 50%;
+    height: 50%;
   }
   .time_lines {
     display: block;
