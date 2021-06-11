@@ -252,10 +252,26 @@
   .data_5 {
     position: relative;
     display: block;
-    top: -22vw;
+    top: -3vw;
     width: 48%;
     height: 48%;
-    left:9.5vw;
+    left:21.5vw;
+  }
+  .data_6 {
+    position: relative;
+    display: block;
+    top: -3vw;
+    width: 48%;
+    height: 48%;
+    left:22.5vw;
+  }
+  .data_7 {
+    position: relative;
+    display: block;
+    top: -3vw;
+    width: 48%;
+    height: 48%;
+    left:21.5vw;
   }
   .dish_fish {
     position: relative;
@@ -284,6 +300,21 @@
     display: block;
     position: relative;
     top:-58vw;
+  }
+  .fifth_comp {
+    display: block;
+    position: relative;
+    top:-25vw;
+  }
+  .sixth_comp {
+    display: block;
+    position: relative;
+    top:-21vw;
+  }
+  .seventh_comp {
+    display: block;
+    position: relative;
+    top:3vw;
   }
   .red_rect_1 {
     display: block;
@@ -317,6 +348,30 @@
     left:21vw;
     top:20vw;
   }
+  .red_rect_5 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:24vw;
+    top:15vw;
+  }
+  .red_rect_6 {
+    display: block;
+    position: relative;
+    width: 47%;
+    height: 47%;
+    left:23%;
+    top:15vw;
+  }
+  .red_rect_7 {
+    display: block;
+    position: relative;
+    width: 47%;
+    height: 47%;
+    left:23%;
+    top:-12vw;
+  }
   .blue_rect_1 {
     display: block;
     position: relative;
@@ -348,6 +403,31 @@
     height: 50%;
     left:21vw;
     top:-28.5vw;
+  }
+  .blue_rect_5 {
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    left:16vw;
+    top:-33.5vw;
+  }
+  .blue_rect_6 {
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    left:13vw;
+    top:-34.5vw;
+  }
+  .blue_rect_7 {
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    left:17vw;
+    top:-47.5vw;
+    transform: rotate(6deg);
   }
   .photo_circus {
     display: block;
@@ -381,6 +461,30 @@
     top:-73.5vw;
     left: 18.1vw;
   }
+  .photo_festival {
+    display: block;
+    position: relative;
+    width: 53%;
+    height: 53%;
+    top:-71.5vw;
+    left: 20.1vw;
+  }
+  .photo_building {
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top:-80.5vw;
+    left: 18.1vw;
+  }
+  .photo_furniture {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top:-80.5vw;
+    left: 21.1vw;
+  }
   .first_text {
     width: 27.976vw;
     height: 6.488vw;
@@ -407,6 +511,27 @@
     height: 6.488vw;
     bottom: 12vw;
     margin-top: -118vw;
+    margin-left: 45vw;
+  }
+  .fifth_text {
+    width: 27.976vw;
+    height: 6.488vw;
+    bottom: 12vw;
+    margin-top: -90vw;
+    margin-left: 45vw;
+  }
+  .sixth_text {
+    width: 27.976vw;
+    height: 6.488vw;
+    bottom: 12vw;
+    margin-top: -103vw;
+    margin-left: 45vw;
+  }
+  .seventh_text {
+    width: 27.976vw;
+    height: 6.488vw;
+    bottom: 12vw;
+    margin-top: -75vw;
     margin-left: 45vw;
   }
   .wavy {
@@ -489,6 +614,46 @@
     top:134vw;
     left:56vw;
   }
+  .circles_4 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:71vw;
+    left:-13vw;
+  }
+  .circles_4_1 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:71vw;
+    left:-13vw;
+  }
+  .circles_4_2 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:134vw;
+    left:56vw;
+  }
+  .circles_5 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:71vw;
+    left:-13vw;
+  }
+  .circles_6 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:71vw;
+    left:-13vw;
+  }
   .time_lines {
     display: block;
     position: relative;
@@ -507,6 +672,27 @@
     display: block;
     position: relative;
     top:-11vw;
+    left:0;
+    z-index: -1;
+  }
+  .time_lines_4 {
+    display: block;
+    position: relative;
+    top:-7vw;
+    left:0;
+    z-index: -1;
+  }
+  .time_lines_5 {
+    display: block;
+    position: relative;
+    top:-12vw;
+    left:0;
+    z-index: -1;
+  }
+  .time_lines_6 {
+    display: block;
+    position: relative;
+    top:2vw;
     left:0;
     z-index: -1;
   }
@@ -542,7 +728,25 @@
     position: relative;
     vertical-align: top;
     width: 100%;
-    top: 25.6vw;
+    top: 16.6vw;
+    height: 78.048vw;
+    left:0;
+  }
+  .seventh_slide {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top: 23vw;
+    height: 78.048vw;
+    left:0;
+  }
+  .eight_slide {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top: 30vw;
     height: 78.048vw;
     left:0;
   }
@@ -562,6 +766,15 @@
     top:37vw;
     left:-6vw;
   }
+  .dot_pattern_3 {
+    position: absolute;
+    display: block;
+    width: 22%;
+    height: 22%;
+    top:43vw;
+    left:60vw;
+    z-index: -1;
+  }
   .spiral_hypno_1 {
     position: absolute;
     display: block;
@@ -569,6 +782,15 @@
     height: 35%;
     top:64vw;
     left:63vw;
+  }
+  .spiral_hypno_2 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 35%;
+    top:36vw;
+    left:7vw;
+    z-index: -1;
   }
   .time_circle {
     display: block;
@@ -620,6 +842,16 @@
     background-color:black;
     margin-bottom: 2.4vw;
   }
+  .time_line_4 {
+    display: block;
+    position: relative;
+    width: 0.476vw;
+    height: 52.619vw;
+    left: 43.5vw;
+    top: -51vw;
+    background-color:black;
+    margin-bottom: 2.4vw;
+  }
   .text_dish {
     position: relative;
     display: block;
@@ -647,6 +879,56 @@
     border-radius: 50%;
     left: 21vw;
     top: 2vw;
+  }
+  .c_1_5 {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 8.571vw;
+    height: 8.571vw;
+    border-radius: 50%;
+    left: 77vw;
+    top: -16vw;
+  }
+  .c_1_6 {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 20.571vw;
+    height: 20.571vw;
+    border-radius: 50%;
+    left: -3vw;
+    top: -45vw;
+  }
+  .c_2_6 {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 2.571vw;
+    height: 2.571vw;
+    border-radius: 50%;
+    left: 18vw;
+    top: -20vw;
+  }
+  .c_2_5 {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 5.571vw;
+    height: 5.571vw;
+    border-radius: 50%;
+    left: 79vw;
+    top: -14vw;
+  }
+  .c_3_5 {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 77vw;
+    top: -13vw;
   }
   .c_1_3 {
     display: block;
@@ -678,6 +960,37 @@
     left: 16vw;
     top: -53vw;
   }
+  .c_1_4 {
+    display: block;
+    position: relative;
+    background-color: black;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 92vw;
+    top: -25vw;
+  }
+  .c_1_4_1 {
+    display: block;
+    position: relative;
+    background-color: black;
+    width: 7.571vw;
+    height: 7.571vw;
+    border-radius: 50%;
+    left: 16vw;
+    top: -53vw;
+  }
+  .c_1_4_2 {
+    display: block;
+    position: relative;
+    background-color: black;
+    width: 18.571vw;
+    height: 18.571vw;
+    border-radius: 50%;
+    left: -70vw;
+    top: -53vw;
+  }
+
   .c_2 {
     display: block;
     position: relative;
