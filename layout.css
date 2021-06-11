@@ -205,8 +205,8 @@
     position: relative;
     vertical-align: top;
     width: 100%;
-    top:0;
-    /* height: 49.048vw; */
+    top:7.6vw;
+    height: 78.048vw;
     left:0;
   }
   .dish_circle {
@@ -220,10 +220,18 @@
   .data_1 {
     position: relative;
     display: block;
-    top: 10vw;
+    top: -13vw;
     width: 50%;
     height: 50%;
     left:24vw;
+  }
+  .data_2 {
+    position: relative;
+    display: block;
+    top: -13vw;
+    width: 50%;
+    height: 50%;
+    left:21vw;
   }
   .dish_fish {
     position: relative;
@@ -236,6 +244,12 @@
   .first_comp {
     display: block;
     position: relative;
+    top:-39vw;
+  }
+  .second_comp {
+    display: block;
+    position: relative;
+    top:-39vw;
   }
   .red_rect_1 {
     display: block;
@@ -243,7 +257,15 @@
     width: 50%;
     height: 50%;
     left:21vw;
-    top:25vw;
+    top:20vw;
+  }
+  .red_rect_2 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:20vw;
   }
   .blue_rect_1 {
     display: block;
@@ -251,31 +273,76 @@
     width: 50%;
     height: 50%;
     left:21vw;
-    top:-14vw;
+    top:-19vw;
+  }
+  .blue_rect_2 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:-19vw;
   }
   .photo_circus {
     display: block;
     position: relative;
     width: 45%;
     height: 45%;
-    top:-48.5vw;
+    top:-53.5vw;
+    left: 24vw;
+  }
+  .photo_owner {
+    display: block;
+    position: relative;
+    width: 45%;
+    height: 45%;
+    top:-53.5vw;
     left: 24vw;
   }
   .first_text {
     width: 27.976vw;
     height: 6.488vw;
     bottom: 12vw;
-    margin-top: -42vw;
-    margin-left: 12vw;
+    margin-top: -86vw;
+    margin-left: 15vw;
   }
-  .time_lines {
+  .second_text {
+    width: 27.976vw;
+    height: 6.488vw;
+    bottom: 12vw;
+    margin-top: -101vw;
+    margin-left: 15vw;
+  }
+  .wavy {
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 10%;
+    top:50vw;
+    left:0;
+  }
+  .wavy_flex {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
+    width: 10%;
+    height: 10%;
+  }
+  .time_lines {
+    display: block;
     position: relative;
     top:0;
     left:0;
     z-index: -1;
+  }
+  .third_slide {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:7.6vw;
+    height: 78.048vw;
+    left:0;
   }
   .time_circle {
     display: block;
@@ -285,7 +352,7 @@
     height: 3.571vw;
     border-radius: 50%;
     left: 42vw;
-    top: -56vw;
+    top: -51vw;
   }
   .time_line {
     display: block;
@@ -293,7 +360,7 @@
     width: 0.476vw;
     height: 52.619vw;
     left: 43.5vw;
-    top: -56vw;
+    top: -51vw;
     background-color:black;
     margin-bottom: 22.4vw;
   }
@@ -320,7 +387,7 @@
   .text_dish {
     position: relative;
     display: block;
-    top:-59vw;
+    top:-61vw;
     width: 32%;
     left:59.643vw;
     height: 15.56vw;
