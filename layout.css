@@ -241,6 +241,14 @@
     height: 50%;
     left:21.4vw;
   }
+  .data_4 {
+    position: relative;
+    display: block;
+    top: -22vw;
+    width: 75%;
+    height: 75%;
+    left:9.5vw;
+  }
   .dish_fish {
     position: relative;
     display: block;
@@ -259,6 +267,16 @@
     position: relative;
     top:-39vw;
   }
+  .third_comp {
+    display: block;
+    position: relative;
+    top:-38vw;
+  }
+  .fourth_comp {
+    display: block;
+    position: relative;
+    top:-58vw;
+  }
   .red_rect_1 {
     display: block;
     position: relative;
@@ -268,6 +286,22 @@
     top:20vw;
   }
   .red_rect_2 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:20vw;
+  }
+  .red_rect_3 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:20vw;
+  }
+  .red_rect_4 {
     display: block;
     position: relative;
     width: 50%;
@@ -291,6 +325,22 @@
     left:21vw;
     top:-19vw;
   }
+  .blue_rect_3 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:-28.5vw;
+  }
+  .blue_rect_4 {
+    display: block;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left:21vw;
+    top:-28.5vw;
+  }
   .photo_circus {
     display: block;
     position: relative;
@@ -307,6 +357,22 @@
     top:-53.5vw;
     left: 24vw;
   }
+  .photo_party {
+    display: block;
+    position: relative;
+    width: 33%;
+    height: 33%;
+    top:-73.5vw;
+    left: 29vw;
+  }
+  .photo_soviet {
+    display: block;
+    position: relative;
+    width: 53%;
+    height: 53%;
+    top:-73.5vw;
+    left: 18.1vw;
+  }
   .first_text {
     width: 27.976vw;
     height: 6.488vw;
@@ -321,6 +387,20 @@
     margin-top: -101vw;
     margin-left: 45vw;
   }
+  .third_text {
+    width: 27.976vw;
+    height: 6.488vw;
+    bottom: 12vw;
+    margin-top: -107vw;
+    margin-left: 16vw;
+  }
+  .fourth_text {
+    width: 27.976vw;
+    height: 6.488vw;
+    bottom: 12vw;
+    margin-top: -118vw;
+    margin-left: 45vw;
+  }
   .wavy {
     position: absolute;
     display: block;
@@ -329,12 +409,33 @@
     top:50vw;
     left:0;
   }
+  .wavy_1 {
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 10%;
+    top:39vw;
+    left:69vw;
+    transform: rotate(90deg);
+    z-index: -1;
+  }
   .wavy_flex {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     height: 65vw;
     width: 12vw;
+  }
+  .wavy_flex_1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 65vw;
+    width: 12vw;
+  }
+  .wavy_flex_1 img {
+    width: 50%;
+    height: 50%;
   }
   .wavy_flex img {
     width: 50%;
@@ -356,10 +457,48 @@
     top:71vw;
     left:-13vw;
   }
+  .circles_3 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:71vw;
+    left:-13vw;
+  }
+  .circles_3_1 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:71vw;
+    left:-13vw;
+  }
+  .circles_3_2 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:134vw;
+    left:56vw;
+  }
   .time_lines {
     display: block;
     position: relative;
     top:0;
+    left:0;
+    z-index: -1;
+  }
+  .time_lines_2 {
+    display: block;
+    position: relative;
+    top:-11vw;
+    left:0;
+    z-index: -1;
+  }
+  .time_lines_3 {
+    display: block;
+    position: relative;
+    top:-11vw;
     left:0;
     z-index: -1;
   }
@@ -381,6 +520,15 @@
     height: 78.048vw;
     left:0;
   }
+  .fifth_slide {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:16.6vw;
+    height: 78.048vw;
+    left:0;
+  }
   .dot_pattern_1 {
     position: absolute;
     display: block;
@@ -388,6 +536,22 @@
     height: 22%;
     top:37vw;
     left:55vw;
+  }
+  .dot_pattern_2 {
+    position: absolute;
+    display: block;
+    width: 22%;
+    height: 22%;
+    top:37vw;
+    left:-6vw;
+  }
+  .spiral_hypno_1 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 35%;
+    top:64vw;
+    left:63vw;
   }
   .time_circle {
     display: block;
@@ -429,6 +593,16 @@
     background-color:black;
     margin-bottom: 2.4vw;
   }
+  .time_line_3 {
+    display: block;
+    position: relative;
+    width: 0.476vw;
+    height: 62.619vw;
+    left: 43.5vw;
+    top: -51vw;
+    background-color:black;
+    margin-bottom: 2.4vw;
+  }
   .text_dish {
     position: relative;
     display: block;
@@ -456,6 +630,36 @@
     border-radius: 50%;
     left: 21vw;
     top: 2vw;
+  }
+  .c_1_3 {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 92vw;
+    top: -14vw;
+  }
+  .c_1_3_1 {
+    display: block;
+    position: relative;
+    border: solid 1vw;
+    width: 7.571vw;
+    height: 7.571vw;
+    border-radius: 50%;
+    left: 16vw;
+    top: -53vw;
+  }
+  .c_1_3_2 {
+    display: block;
+    position: relative;
+    border: solid 1vw;
+    width: 9.571vw;
+    height: 9.571vw;
+    border-radius: 50%;
+    left: 16vw;
+    top: -53vw;
   }
   .c_2 {
     display: block;
@@ -551,7 +755,7 @@
     top:5vw;
   }
   p {
-    font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left;
+    font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
   }
   h1 {
     font-family: 'Oswald', sans-serif; font-size: 4.167vw; color: black; vertical-align: top; text-align: left; font-weight: 500;
