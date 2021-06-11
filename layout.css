@@ -233,6 +233,14 @@
     height: 50%;
     left:21vw;
   }
+  .data_3 {
+    position: relative;
+    display: block;
+    top: -13vw;
+    width: 50%;
+    height: 50%;
+    left:21.4vw;
+  }
   .dish_fish {
     position: relative;
     display: block;
@@ -311,7 +319,7 @@
     height: 6.488vw;
     bottom: 12vw;
     margin-top: -101vw;
-    margin-left: 15vw;
+    margin-left: 45vw;
   }
   .wavy {
     position: absolute;
@@ -332,6 +340,22 @@
     width: 50%;
     height: 50%;
   }
+  .circles_1 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:55vw;
+    left:49vw;
+  }
+  .circles_2 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:71vw;
+    left:-13vw;
+  }
   .time_lines {
     display: block;
     position: relative;
@@ -347,6 +371,23 @@
     top:7.6vw;
     height: 78.048vw;
     left:0;
+  }
+  .fourth_slide {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:7.6vw;
+    height: 78.048vw;
+    left:0;
+  }
+  .dot_pattern_1 {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 22%;
+    top:37vw;
+    left:55vw;
   }
   .time_circle {
     display: block;
@@ -395,6 +436,66 @@
     width: 32%;
     left:59.643vw;
     height: 15.56vw;
+  }
+  .c_1 {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 7.571vw;
+    height: 7.571vw;
+    border-radius: 50%;
+    left: 21vw;
+    top: 2vw;
+  }
+  .c_1_2 {
+    display: block;
+    position: relative;
+    border: solid 1.655vw;
+    width: 7.571vw;
+    height: 7.571vw;
+    border-radius: 50%;
+    left: 21vw;
+    top: 2vw;
+  }
+  .c_2 {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 15vw;
+    top: -1vw;
+  }
+  .c_2_2 {
+    display: block;
+    position: relative;
+    background-color: black;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: 15vw;
+    top: -1vw;
+  }
+  .c_3 {
+    display: block;
+    position: relative;
+    border: solid 0.655vw;
+    width: 2.571vw;
+    height: 2.571vw;
+    border-radius: 50%;
+    left: 21vw;
+    top: 1vw;
+  }
+  .c_3_2 {
+    display: block;
+    position: relative;
+    background-color: black;
+    width: 2.571vw;
+    height: 2.571vw;
+    border-radius: 50%;
+    left: 21vw;
+    top: 1vw;
   }
   .text_dish h1 {
     margin-bottom: 0.6vw;
