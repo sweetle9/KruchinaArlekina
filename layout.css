@@ -1125,6 +1125,22 @@
     height: 80%;
     padding-left: 2vw;
   }
+  #scroll {
+    position: absolute;
+    top: 75vw;
+    right: 3vw;
+    z-index: 1001;
+  }
+  .scroll_item {
+    border: 0.6vw solid black;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    margin: 1.4vw;
+  }
+  .scroll_item_active {
+    background-color: black;
+  }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
   }
