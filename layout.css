@@ -1146,6 +1146,9 @@
     margin: 1.4vw;
     background-color: black;
   }
+  .scroll_item:hover{
+    background: black;
+}
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
   }
