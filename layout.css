@@ -429,7 +429,7 @@
     height: 85%;
     left:8%;
     top:-47.5vw;
-    transform: rotate(7deg);
+    transform: rotate(10deg);
   }
   .photo_circus {
     display: block;
@@ -519,8 +519,8 @@
     width: 27.976vw;
     height: 6.488vw;
     bottom: 12vw;
-    margin-top: -90vw;
-    margin-left: 45vw;
+    margin-top: -88vw;
+    margin-left: 17vw;
   }
   .sixth_text {
     width: 27.976vw;
@@ -533,8 +533,8 @@
     width: 27.976vw;
     height: 6.488vw;
     bottom: 12vw;
-    margin-top: -16vw;
-    margin-left: 45vw;
+    margin-top: -14vw;
+    margin-left: 16vw;
   }
   .wavy {
     position: absolute;
@@ -680,7 +680,7 @@
   .time_lines_4 {
     display: block;
     position: relative;
-    top:-7vw;
+    top:-9vw;
     left:0;
     z-index: -1;
   }
@@ -694,7 +694,7 @@
   .time_lines_6 {
     display: block;
     position: relative;
-    top:2vw;
+    top:0vw;
     left:0;
     z-index: -1;
     height: 0;
@@ -1094,7 +1094,6 @@
     width: 111%;
     left:18.5vw;
   }
-
   .footer {
     display: block;
     position: relative;
