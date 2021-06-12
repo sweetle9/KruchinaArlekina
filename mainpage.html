@@ -40,13 +40,14 @@
     $(window).scroll(function (event) {
         if ($(".second_slide").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
             $("#1").addClass('scroll_item_active');
-            $("#scroll").addClass('fixed');
             $(".third_slide").removeClass('scroll_item_active');
             $("#3").removeClass('scroll_item_active');
             $("#4").removeClass('scroll_item_active');
         }
         if ($(".third_slide").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
             $("#2").addClass('scroll_item_active');
+            $("#scroll").css('position','fixed');
+            $("#scroll").css({ top: '9vw' })
             $("#1").removeClass('scroll_item_active');
             $("#3").removeClass('scroll_item_active');
             $("#4").removeClass('scroll_item_active');
