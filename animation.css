@@ -1,0 +1,14 @@
+  .wavy_line_1 {
+    animation: bouncing_ball 3s ease-in-out -0.1s alternate infinite;
+}
+  .wavy_line_2 {
+    animation: bouncing_ball 3s ease-in-out -0.3s alternate infinite;
+}
+  .wavy_line_3 {
+    animation: bouncing_ball 3s ease-in-out -0.5s alternate infinite;
+}
+  @keyframes bouncing_ball {
+  0% {transform: translateY(0%);}
+  50% {transform: translateY(-10%);}
+  100% {transform: translateY(10%);}
+}
