@@ -313,6 +313,7 @@
     display: block;
     position: relative;
     top:3vw;
+    height: 46vw;
   }
   .red_rect_1 {
     display: block;
@@ -365,10 +366,10 @@
   .red_rect_7 {
     display: block;
     position: relative;
-    width: 47%;
-    height: 47%;
-    left:23%;
-    top:-12vw;
+    width: 85%;
+    height: 85%;
+    left:8%;
+    top:-13vw;
   }
   .blue_rect_1 {
     display: block;
@@ -421,11 +422,11 @@
   .blue_rect_7 {
     display: block;
     position: relative;
-    width: 60%;
-    height: 60%;
-    left:17vw;
+    width: 85%;
+    height: 85%;
+    left:8%;
     top:-47.5vw;
-    transform: rotate(6deg);
+    transform: rotate(7deg);
   }
   .photo_circus {
     display: block;
@@ -478,10 +479,10 @@
   .photo_furniture {
     display: block;
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     top:-80.5vw;
-    left: 21.1vw;
+    left: 17.1vw;
   }
   .first_text {
     width: 27.976vw;
@@ -529,7 +530,7 @@
     width: 27.976vw;
     height: 6.488vw;
     bottom: 12vw;
-    margin-top: -75vw;
+    margin-top: -16vw;
     margin-left: 45vw;
   }
   .wavy {
@@ -693,6 +694,7 @@
     top:2vw;
     left:0;
     z-index: -1;
+    height: 0;
   }
   .third_slide {
     display: inline-block;
@@ -1085,14 +1087,14 @@
     top:5vw;
     margin-left:5.3vw;
     margin-right:5.3vw;
-    height: 4vw;
+    height: 5vw;
   }
   .footer_container {
     position: relative;
     width: 100%;
     top:0;
     left:0;
-    height: 4vw;
+    height: 5vw;
   }
   .footer_body {
     position: relative;
