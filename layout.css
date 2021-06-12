@@ -1150,6 +1150,9 @@
   .scroll_item:hover{
     background: black;
 }
+  .fixed {
+    position: fixed;
+  }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
   }
