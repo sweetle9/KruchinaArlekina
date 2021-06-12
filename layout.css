@@ -12,7 +12,8 @@
     height: 100%;
   }
   .wrapper {
-
+    max-width: 100%;
+    overflow: hidden;
   }
   body.lock {
     overflow: hidden;
@@ -188,7 +189,7 @@
   .container_content {
     display: block;
     position: relative;
-    height: 606.964vw;
+    height: 628.964vw;
   }
   .first_slide {
     display: inline-block;
@@ -278,7 +279,7 @@
     display: block;
     width: 63%;
     height: 63%;
-    top: -29.9vw;
+    top: -30.1vw;
     right: 1vw;
   }
   .first_comp {
@@ -1068,21 +1069,61 @@
   white-space: nowrap;
   }
   .dish_bottom {
-    position: relative;
+    position: absolute;
     display: block;
-    top:-20.8vw;
+    top:21.6vw;
     margin: 0 0 0 0;
     width: 111%;
     height: 100%;
     left:18.5vw;
   }
-  button p {
-
-  }
   .baton {
     display: block;
     position: relative;
     top:5vw;
+  }
+  .footer {
+    display: block;
+    position: relative;
+    top:5vw;
+    margin-left:6vw;
+    margin-right: 6vw;
+    height: 10vw;
+  }
+  .footer_container {
+    position: relative;
+    width: 100%;
+    top:0;
+    left:0;
+    height: 10vw;
+  }
+  .footer_body {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer_body a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1.131vw;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 10vw;
+    margin-right: 4vw;
+    align-items: flex-end;
+    height: 3vw;
+  }
+  .icons img {
+    width: 80%;
+    height: 80%;
+    padding-left: 2vw;
   }
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
