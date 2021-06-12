@@ -1,14 +1,33 @@
-  .wavy_line_1 {
-    animation: bouncing_ball 3s ease-in-out -0.1s alternate infinite;
-}
-  .wavy_line_2 {
-    animation: bouncing_ball 3s ease-in-out -0.3s alternate infinite;
-}
-  .wavy_line_3 {
-    animation: bouncing_ball 3s ease-in-out -0.5s alternate infinite;
-}
-  @keyframes bouncing_ball {
-  0% {transform: translateY(0%);}
-  50% {transform: translateY(-10%);}
-  100% {transform: translateY(10%);}
-}
+    .wavy_line_1 {
+      animation: bouncing_ball 3s ease-in-out -0.1s alternate infinite;
+  }
+    .wavy_line_2 {
+      animation: bouncing_ball 3s ease-in-out -0.3s alternate infinite;
+  }
+    .wavy_line_3 {
+      animation: bouncing_ball 3s ease-in-out -0.5s alternate infinite;
+  }
+    @keyframes bouncing_ball {
+    0% {transform: translateY(0%);}
+    50% {transform: translateY(-10%);}
+    100% {transform: translateY(10%);}
+  }
+  .c_1 {
+    animation: zoom-in-out 3s ease-in-out -0.1s alternate infinite;
+  }
+  .c_2 {
+    animation: zoom-in-out 3s ease-in-out -0.3s alternate infinite;
+  }
+  .c_3 {
+    animation: zoom-in-out 3s ease-in-out -0.5s alternate infinite;
+  }
+  @keyframes zoom-in-out {
+    0% {transform: scale(1, 1);}
+    50% {transform: scale(1.3, 1.3);}
+    100% {transform: scale(1, 1);}
+  }
+  .blue_rect_1:hover {
+    transform: rotateY(360deg);
+    transform: scale(3);
+    transition: 2s ease-in-out;
+  }
