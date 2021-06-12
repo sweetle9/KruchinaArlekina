@@ -13,7 +13,7 @@
   }
   .wrapper {
     max-width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .container {
     max-width: 88.393vw;
@@ -1083,8 +1083,8 @@
     display: block;
     position: relative;
     top:5vw;
-    margin-left:6vw;
-    margin-right: 6vw;
+    margin-left:5.3vw;
+    margin-right:5.3vw;
     height: 10vw;
   }
   .footer_container {
@@ -1123,11 +1123,20 @@
     padding-left: 2vw;
   }
   #scroll {
-    position: absolute;
-    display: block;
-    top: 80vw;
+    position: sticky;
+    top: 10vw;
+    height: 10vw;
     right: 3vw;
     z-index: 49;
+  }
+  .sticky_element {
+    position: absolute;
+    height: 556.964vw;
+    text-align: right;
+    z-index: 49;
+    top:80vw;
+    right: 1vw;
+    overflow:visible;
   }
   .scroll_item {
     border: 0.6vw solid black;
@@ -1147,9 +1156,6 @@
   .scroll_item:hover{
     background: black;
 }
-  .fixed {
-    position: fixed;
-  }
 
   p {
     font-family: 'Montserrat', sans-serif; font-size: 1.429vw; font-weight: normal; vertical-align: top; text-align: left; line-height: 1.7vw;
