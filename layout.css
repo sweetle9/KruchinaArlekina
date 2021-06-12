@@ -1138,7 +1138,12 @@
     height: 3vw;
     margin: 1.4vw;
   }
-  .scroll_item_active {
+  .scroll_item.active {
+    border: 0.6vw solid black;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    margin: 1.4vw;
     background-color: black;
   }
   p {
