@@ -1058,17 +1058,33 @@
     margin-bottom: -1.3vw;
   }
   button {
-  width: 17.500vw;
-  height: 3.333vw;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  color: rgba(162, 42, 47, 1);
-  background-color: white;
-  font-size: 1.38vw;
-  border: 0.2vw solid rgba(162, 42, 47, 1);
-  padding: 0.1vw 0.1vw 0.1vw 0.1vw;
-  max-width: 100%;
-  white-space: nowrap;
+    width: 17.500vw;
+    height: 3.333vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgba(162, 42, 47, 1);
+    background-color: white;
+    font-size: 1.38vw;
+    border: 0.2vw solid rgba(162, 42, 47, 1);
+    max-width: 100%;
+    white-space: nowrap;
+    transition: all 0.3s ease-out;
+  }
+  .baton {
+    display: block;
+    position: relative;
+    top:5vw;
+    z-index: 49;
+    transition: all 0.3s ease-out;
+  }
+  .btn-1 {
+    box-shadow: inset 0 0 rgba(8, 157, 148, 1);
+    transition: all 0.3s ease-out;
+  }
+  .btn-1:hover {
+    box-shadow: inset 13em 0 rgba(162, 42, 47, 1);
+    cursor: pointer;
+    color: white;
   }
   .dish_bottom {
     position: absolute;
@@ -1078,12 +1094,7 @@
     width: 111%;
     left:18.5vw;
   }
-  .baton {
-    display: block;
-    position: relative;
-    top:5vw;
-    z-index: 49;
-  }
+
   .footer {
     display: block;
     position: relative;
