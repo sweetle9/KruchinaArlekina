@@ -1076,13 +1076,13 @@
     top:21.6vw;
     margin: 0 0 0 0;
     width: 111%;
-    height: 100%;
     left:18.5vw;
   }
   .baton {
     display: block;
     position: relative;
     top:5vw;
+    z-index: 49;
   }
   .footer {
     display: block;
