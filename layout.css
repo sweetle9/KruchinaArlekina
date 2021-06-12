@@ -1127,6 +1127,7 @@
   }
   #scroll {
     position: absolute;
+    display: block;
     top: 80vw;
     right: 3vw;
     z-index: 49;
@@ -1138,7 +1139,7 @@
     height: 3vw;
     margin: 1.4vw;
   }
-  .scroll_item.active {
+  .scroll_item_active {
     border: 0.6vw solid black;
     border-radius: 50%;
     width: 3vw;
