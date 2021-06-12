@@ -36,21 +36,19 @@
 
     $(window).scroll(function (event) {
       if ($(".first_slide").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
-          $("#1").addClass('scroll_item_active');
-          $(".second_slide").removeClass('scroll_item_active');
+          $("#1").removeClass('scroll_item_active');
+          $("#2").removeClass('scroll_item_active');
           $("#3").removeClass('scroll_item_active');
           $("#4").removeClass('scroll_item_active');
       }
         if ($(".second_slide").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
             $("#1").addClass('scroll_item_active');
-            $(".third_slide").removeClass('scroll_item_active');
+            $("#2").removeClass('scroll_item_active');
             $("#3").removeClass('scroll_item_active');
             $("#4").removeClass('scroll_item_active');
         }
         if ($(".third_slide").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
             $("#2").addClass('scroll_item_active');
-            $("#scroll").css('position','fixed');
-            $("#scroll").css({ top: '9vw' })
             $("#1").removeClass('scroll_item_active');
             $("#3").removeClass('scroll_item_active');
             $("#4").removeClass('scroll_item_active');
@@ -397,14 +395,16 @@
       </div>
       </div>
       </footer>
-      <div id="scroll">
-      <div id="1" class="scroll_item"></div>
-      <div id="2" class="scroll_item"></div>
-      <div id="3" class="scroll_item"></div>
-      <div id="4" class="scroll_item"></div>
-      <div id="5" class="scroll_item"></div>
-      <div id="6" class="scroll_item"></div>
-      <div id="7" class="scroll_item"></div>
+      <div class="sticky_element">
+        <div id="scroll">
+            <div id="1" class="scroll_item"></div>
+            <div id="2" class="scroll_item"></div>
+            <div id="3" class="scroll_item"></div>
+            <div id="4" class="scroll_item"></div>
+            <div id="5" class="scroll_item"></div>
+            <div id="6" class="scroll_item"></div>
+            <div id="7" class="scroll_item"></div>
+        </div>
       </div>
       </div>
   </body>
