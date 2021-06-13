@@ -549,9 +549,8 @@
     display: block;
     width: 10%;
     height: 10%;
-    top:39vw;
-    left:69vw;
-    transform: rotate(90deg);
+    top:11vw;
+    left:39vw;
     z-index: -1;
   }
   .wavy_flex {
@@ -567,6 +566,8 @@
     flex-direction: row;
     height: 65vw;
     width: 12vw;
+    transform: rotate(90deg);
+
   }
   .wavy_flex_1 img {
     width: 50%;
