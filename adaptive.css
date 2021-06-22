@@ -343,7 +343,7 @@
     color: rgba(162, 42, 47, 1);
     background-color: white;
     font-size: 3.8vw;
-    border: 0.7vw solid rgba(162, 42, 47, 1);
+    border: 0.4vw solid rgba(162, 42, 47, 1);
     max-width: 100%;
     white-space: nowrap;
     transition: all 0.3s ease-out;
@@ -395,6 +395,15 @@
     position: relative;
     width: 0.776vw;
     height: 61.619vw;
+    left: 43.8vw;
+    top: 0;
+    background-color:black;
+  }
+  .time_line_4 {
+    display: block;
+    position: relative;
+    width: 0.776vw;
+    height: 79.619vw;
     left: 43.8vw;
     top: 0;
     background-color:black;
@@ -505,7 +514,7 @@
   }
   .second_text_m {
     width: 56.976vw;
-    height: 16.488vw;
+    height: 29.488vw;
     margin-top: -154vw;
     margin-left: 16vw;
   }
@@ -525,6 +534,78 @@
     height: 22%;
     top:113vw;
     left:-19vw;
+  }
+  .third_slide_m {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:0;
+    left:0;
+  }
+  .data_3_m {
+    position: relative;
+    display: block;
+    margin: 2vw 13vw;
+    text-align: center;
+  }
+  .third_comp_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2vw 0;
+  }
+  .third_comp_m {
+    display: block;
+    position: relative;
+    top:0vw;
+  }
+  .rect_3 {
+    position: relative;
+    display: block;
+    width: 75%;
+    height: 75%;
+    top:-77vw;
+    left: 11vw;
+  }
+  .photo_party_m {
+    display: block;
+    position: relative;
+    width: 53%;
+    height: 53%;
+    top:-147vw;
+    left:20vw;
+  }
+  .third_text_m {
+    width: 56.976vw;
+    height: 25.488vw;
+    margin-top: -139vw;
+    margin-left: 16vw;
+  }
+  .third_text_m p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.429vw;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left;
+    line-height: auto;
+    line-height: 1.1;
+  }
+  .dot_pattern_2_m {
+    position: absolute;
+    display: block;
+    width: 22%;
+    height: 22%;
+    top:37vw;
+    left:-6vw;
+  }
+  .spiral_hypno_1_m {
+    position: absolute;
+    display: block;
+    width: 35%;
+    height: 35%;
+    top:64vw;
+    left:63vw;
   }
 @media (max-width: 320px) {
   .first_slide, .second_slide, .third_slide, .fourth_slide, .fifth_slide, .sixth_slide, .seventh_slide, .eight_slide {
