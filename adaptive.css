@@ -134,7 +134,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    height: 12.1vw;
+    height: 10.1vw;
     align-items: flex-end;
     margin-left:6vw;
     margin-right:6vw;
@@ -146,7 +146,7 @@
   }
   .header_logo_2_m {
     flex: 0 0 50vw;
-    top: 1.6vw;
+    top: 1.9vw;
     z-index: 3;
     position: relative;
   }
@@ -322,7 +322,7 @@
     height: 100%;
     top: 0vw;
     right: 0vw;
-    margin-top: 9vw;
+    margin-top: 17vw;
     margin-bottom: 3vw;
   }
   .baton_m {
@@ -336,13 +336,13 @@
     transition: all 0.3s ease-out;
   }
   .baton_m button {
-    width: 58vw;
-    height: 8vw;
+    width: 48vw;
+    height: 7.5vw;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: rgba(162, 42, 47, 1);
     background-color: white;
-    font-size: 4.2vw;
+    font-size: 3.8vw;
     border: 0.7vw solid rgba(162, 42, 47, 1);
     max-width: 100%;
     white-space: nowrap;
