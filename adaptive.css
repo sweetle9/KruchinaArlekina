@@ -108,6 +108,9 @@
   .header {
     display: none;
   }
+  .footer {
+    display: none;
+  }
   .mobile {
     display: block;
     position: relative;
@@ -296,6 +299,50 @@
     transform: rotate(-45deg);
     bottom: 2.7vw;
   }
+  .footer_m {
+    display: block;
+    position: relative;
+    top:104vw;
+    margin-left:5.3vw;
+    margin-right:5.3vw;
+    height: 5vw;
+  }
+  .footer_container_m {
+    position: relative;
+    width: 100%;
+    top:0;
+    left:0;
+    height: 5vw;
+  }
+  .footer_body_m {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer_body_m a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 2vw;
+  }
+  .icons_m {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 7.7vw;
+    margin-right: 11vw;
+    align-items: flex-end;
+    height: 100%;
+    margin-left: 7vw;
+  }
+  .icons_m img {
+    width: 80%;
+    height: 80%;
+    padding-left: 2vw;
+  }
   .btn-2 {
     box-shadow: inset 0 0 rgba(8, 157, 148, 1);
     transition: all 0.3s ease-out;
@@ -408,6 +455,15 @@
     top: 0;
     background-color:black;
   }
+  .time_line_5 {
+    display: block;
+    position: relative;
+    width: 0.776vw;
+    height: 59.619vw;
+    left: 43.8vw;
+    top: 0;
+    background-color:black;
+  }
   .red_rect_1_m {
     display: block;
     position: relative;
@@ -486,7 +542,7 @@
   .second_comp_m {
     display: block;
     position: relative;
-    top:0vw;
+    top:-4vw;
   }
   .rect_2 {
     position: relative;
@@ -515,7 +571,7 @@
   .second_text_m {
     width: 56.976vw;
     height: 29.488vw;
-    margin-top: -154vw;
+    margin-top: -158vw;
     margin-left: 16vw;
   }
   .second_text_m p {
@@ -558,7 +614,7 @@
   .third_comp_m {
     display: block;
     position: relative;
-    top:0vw;
+    top:-4vw;
   }
   .rect_3 {
     position: relative;
@@ -579,7 +635,7 @@
   .third_text_m {
     width: 56.976vw;
     height: 25.488vw;
-    margin-top: -139vw;
+    margin-top: -143vw;
     margin-left: 16vw;
   }
   .third_text_m p {
@@ -592,12 +648,12 @@
     line-height: 1.1;
   }
   .dot_pattern_2_m {
-    position: absolute;
+    position: relative;
     display: block;
-    width: 22%;
-    height: 22%;
-    top:37vw;
-    left:-6vw;
+    width: 20%;
+    height: 20%;
+    top:-75vw;
+    left:-5vw;
   }
   .spiral_hypno_1_m {
     position: absolute;
@@ -607,8 +663,132 @@
     top:64vw;
     left:63vw;
   }
+  .fifth_slide_m {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:-10vw;
+    left:0;
+  }
+  .data_4_m {
+    width: 100%;
+    height: 100%;
+    left: -14vw;
+    position: relative;
+    display: block;
+    margin: 2vw 13vw;
+    text-align: center;
+  }
+  .fourth_comp_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2vw 0;
+  }
+  .fourth_comp_m {
+    display: block;
+    position: relative;
+    top:-4vw;
+  }
+  .rect_4 {
+    position: relative;
+    display: block;
+    width: 58%;
+    height: 58%;
+    top:-55vw;
+    left: 7vw;
+  }
+  .photo_soviet_m {
+    display: block;
+    position: relative;
+    width: 77%;
+    height: 77%;
+    top:-114vw;
+    left:7vw;
+  }
+  .fifth_text_m {
+    width: 56.976vw;
+    height: 25.488vw;
+    margin-top: -106vw;
+    margin-left: 16vw;
+  }
+  .fifth_text_m p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.429vw;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left;
+    line-height: auto;
+    line-height: 1.1;
+  }
+  .sixth_slide_m {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    top:-10vw;
+    left:0;
+  }
+  .data_5_m {
+    width: 100%;
+    height: 100%;
+    left: -14vw;
+    position: relative;
+    display: block;
+    margin: 2vw 13vw;
+    text-align: center;
+  }
+  .fifth_comp_flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 2vw 0;
+  }
+  .fifth_comp_m {
+    display: block;
+    position: relative;
+    top:-4vw;
+  }
+  .rect_5 {
+    position: relative;
+    display: block;
+    width: 58%;
+    height: 58%;
+    top:-55vw;
+    left: 7vw;
+  }
+  .photo_festival_m {
+    display: block;
+    position: relative;
+    width: 77%;
+    height: 77%;
+    top:-114vw;
+    left:7vw;
+  }
+  .sixth_text_m {
+    width: 56.976vw;
+    height: 25.488vw;
+    margin-top: -106vw;
+    margin-left: 16vw;
+  }
+  .sixth_text_m p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.429vw;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: left;
+    line-height: auto;
+    line-height: 1.1;
+  }
 @media (max-width: 320px) {
   .first_slide, .second_slide, .third_slide, .fourth_slide, .fifth_slide, .sixth_slide, .seventh_slide, .eight_slide {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .footer {
     display: none;
   }
   }
