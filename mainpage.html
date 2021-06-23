@@ -32,7 +32,13 @@
       autoplay: true,
       autoplaySpeed:3000,
     });
-
+    $(".slider").slick({
+      arrows:false,
+      dots:true,
+      // adaptiveHeight:true,
+      autoplay: true,
+      autoplaySpeed:3000,
+    });
     $("#1").addClass('scroll_item_active');
     var main = main = $('#scroll');
     $('.scroll_item').click(function (event) {
@@ -260,17 +266,13 @@
         <div class="content">
           <div class="container_content">
             <div class="first_slide">
-              <div class="dish_circle">
-                <img src="images/dish_circle.svg" alt="">
-                  <img class="dish_bottom" src="images/dish_bottom.svg" alt="">
+              <div class="slider">
+                <div class="slider_item"><img data-lazy="images/dish_fish.svg" alt=""></div>
+                <div class="slider_item"><img data-lazy="images/ice_cream.svg" alt=""></div>
               </div>
-              <div class="dish_fish">
-                <img src="images/dish_fish.svg" alt="">
+              <div class="bottom_line">
+                <img src="images/bottom_line.svg" alt="">
               </div>
-              <div class="text_dish">
-                <h1>РЫБА КЛОУН</h1>
-                <h2>СОЛЁНАЯ ДО КОСТОЧКИ</h2>
-                <p>Уникальная рыба клоун обитает <br> в водах Индийского океана. Её вкус яркий и умеренно соленый, совсем как слезы клоунов.</p>
                 <div class="baton">
                   <a href="https://sweetle9.github.io/Web-plakat/Web-plakat.html"><button class="btn-1" type="button">ВСЁ МЕНЮ ЗДЕСЬ</button></a>
                 </div>
