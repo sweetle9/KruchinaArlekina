@@ -808,7 +808,7 @@
     width: 72%;
     height: 72%;
     top:-113vw;
-    left:10vw;
+    left:12vw;
   }
   .sixth_text_m {
     width: 56.976vw;
@@ -873,7 +873,45 @@
     width: 72%;
     height: 72%;
     top:-117vw;
-    left:10vw;
+    left:14vw;
+  }
+  .circles_5_m {
+    position: relative;
+    display: block;
+    width: 11%;
+    height: 10%;
+    margin-top: -56%;
+    margin-left: 71vw;
+  }
+  .c_1_5_m {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 10.571vw;
+    height: 10.571vw;
+    border-radius: 50%;
+    left: 0vw;
+    top: -16vw;
+  }
+  .c_2_5_m {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 8.571vw;
+    height: 8.571vw;
+    border-radius: 50%;
+    left: -2vw;
+    top: -14vw;
+  }
+  .c_3_5_m {
+    display: block;
+    position: relative;
+    border: solid 0.5vw;
+    width: 3.571vw;
+    height: 3.571vw;
+    border-radius: 50%;
+    left: -5vw;
+    top: -13vw;
   }
   .seventh_text_m {
     width: 56.976vw;
@@ -895,7 +933,7 @@
     position: relative;
     vertical-align: top;
     width: 100%;
-    top:-25vw;
+    top:0;
     left:0;
   }
   .data_7_m {
@@ -928,10 +966,10 @@
   .photo_furniture_m {
     display: block;
     position: relative;
-    width: 72%;
-    height: 52%;
+    width: 67%;
+    height: 57%;
     top:-91vw;
-    left:12vw;
+    left:15vw;
   }
   .eight_text_m {
     width: 56.976vw;
