@@ -1087,14 +1087,6 @@
     cursor: pointer;
     color: white;
   }
-  .dish_bottom {
-    position: absolute;
-    display: block;
-    top:21.6vw;
-    margin: 0 0 0 0;
-    width: 111%;
-    left:18.5vw;
-  }
   .footer {
     display: block;
     position: relative;
