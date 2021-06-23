@@ -186,7 +186,7 @@
     display: block;
     position: relative;
     width: 14vw;
-    height: 6vw;
+    height: 5vw;
     z-index: 3;
   }
   .header_burger_m span {
@@ -195,7 +195,7 @@
     left: 0;
     width: 100%;
     height: 0.6vw;
-    top: 2.6vw;
+    top: 2.1vw;
     transition: all 0.3s ease 0s;
   }
   .header_burger_m:before,
@@ -316,11 +316,11 @@
   }
   .header_burger_m.active:before {
     transform: rotate(45deg);
-    top: 2.7vw;
+    top: 2.2vw;
   }
   .header_burger_m.active:after {
     transform: rotate(-45deg);
-    bottom: 2.7vw;
+    bottom: 2.2vw;
   }
   .footer_m {
     display: block;
