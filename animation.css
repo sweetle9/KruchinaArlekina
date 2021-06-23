@@ -132,12 +132,12 @@
   50% {transform: scale(1.2, 0.8);}
   75% {transform: scale(0.95, 1.05);}
   }
-  .c_1_5 {
+  .c_1_5, .c_1_5_m {
     animation: photo_filter 3s ease-in-out alternate infinite;
   }
-  .c_2_5 {
+  .c_2_5, .c_2_5_m {
     animation: photo_filter 3s ease-in-out alternate infinite;
   }
-  .c_3_5 {
+  .c_3_5, .c_3_5_m {
     animation: photo_filter 3s ease-in-out alternate infinite;
   }
