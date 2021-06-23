@@ -63,7 +63,7 @@
     100% {filter:blur(1px);; transform: scale(0.9);}
   }
   .photo_circus, .photo_owner, .photo_soviet, .photo_building,
-  .photo_festival, .photo_furniture, .photo_party, .photo_circus_m, 
+  .photo_festival, .photo_furniture, .photo_party, .photo_circus_m,
   .photo_owner_m, .photo_soviet_m, .photo_building_m,
   .photo_festival_m, .photo_furniture_m, .photo_party_m {
     animation: photo_filter 6s ease-in-out alternate infinite;
@@ -115,7 +115,7 @@
    .spiral_hypno_1 {
      animation: rotate 1s ease-in-out infinite alternate;
    }
-   .spiral_hypno_2 {
+   .spiral_hypno_2, .spiral_hypno_2_m {
      animation: rotate 1s ease-in-out infinite alternate;
    }
  @keyframes rotate {
