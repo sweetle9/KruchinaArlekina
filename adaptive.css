@@ -128,6 +128,9 @@
   .first_slide, .second_slide, .third_slide, .fourth_slide, .fifth_slide, .sixth_slide, .seventh_slide, .eight_slide {
     display: none;
   }
+  .sticky_element {
+    display: none;
+  }
   .header {
     display: none;
   }
@@ -171,7 +174,7 @@
     display: none;
   }
   .header_logo_2_m {
-    flex: 0 0 50vw;
+    flex: 0 0 46vw;
     top: 1.9vw;
     z-index: 3;
     position: relative;
@@ -268,13 +271,14 @@
     right: 0;
     margin-left: 6vw;
     margin-top: 10vw;
+    margin-bottom: 7vw;
   }
   .header_menu_m {
     display: block;
     position: fixed;
     top:-100%;
     left:0;
-    overflow: hidden;
+    overflow: auto;
     width: 100%;
     height: 100%;
     transition: all 0.5s ease 0s;
@@ -967,5 +971,8 @@
   }
   .footer_m {
     margin-top: 10vw;
+  }
+  .sticky_element {
+    display: none;
   }
   }
