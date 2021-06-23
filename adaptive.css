@@ -350,7 +350,7 @@
   .footer_m {
     display: block;
     position: relative;
-    top:332vw;
+    top:39vw;
     margin-top: 3vw;
     margin-left:5.3vw;
     margin-right:5.3vw;
@@ -412,20 +412,10 @@
     left:0;
     padding-top: 2vw;
   }
-  .fish_dish_m {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0vw;
-    right: 0vw;
-    margin-top: 14vw;
-    margin-bottom: 3vw;
-  }
   .baton_m {
     display: block;
     position: relative;
-    top:0vw;
+    top:-2vw;
     z-index: 49;
     width: 100%;
     height: 100%;
@@ -1022,11 +1012,21 @@
     display: block;
     position: relative;
     padding-top:14vw;
-    padding-bottom: 3vw;
+    padding-bottom: -6vw;
     min-width: 0;
     z-index: -1;
   }
-  .slider_item {
+  .dish_bottom_m {
+    position: relative;
+    display: block;
+    top:-12.9vw;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 5.1vw;
+    left:0vw;
+    background-color: rgba(8, 157, 148, 1);
+  }
+  .slider_item_m {
     text-align: center;
     transition: all 0.5s ease-in-out 0s;
   }
@@ -1035,7 +1035,7 @@
     align-items: center;
     justify-content: center;
     left: 0;
-    margin-top:-1vw;
+    margin-top:2.5vw;
     margin-bottom: 0vw;
   }
   .slider_m .slick-dots li {
