@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <style>
 
     </style>
@@ -24,6 +25,14 @@
     $('.header_menu_m').click(function(){
        $('.header_burger_m, .header_menu_m').removeClass('active');
     });
+    $(".slider_m").slick({
+      arrows:false,
+      dots:true,
+      // adaptiveHeight:true,
+      autoplay: true,
+      autoplaySpeed:3000,
+    });
+
     $("#1").addClass('scroll_item_active');
     var main = main = $('#scroll');
     $('.scroll_item').click(function (event) {
@@ -496,8 +505,9 @@
     </div>
     <div class="mobile">
       <div class="first_slide_m">
-        <div class="fish_dish_m">
-          <img src="images/fish_dish_m.svg" alt="">
+        <div class="slider_m">
+          <div class="slider_item"><img data-lazy="images/fish_dish_m.svg" alt=""></div>
+          <div class="slider_item"><img data-lazy="images/ice_cream_m.svg" alt=""></div>
         </div>
           <div class="baton_m">
             <a href="https://sweetle9.github.io/Web-plakat/Web-plakat.html"><button class="btn-2" type="button">ВСЁ МЕНЮ ЗДЕСЬ</button></a>
